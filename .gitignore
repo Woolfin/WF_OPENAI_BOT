@@ -1,0 +1,36 @@
+# Виртуальное окружение
+venv/
+.env
+*.env
+
+# Скомпилированные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# Логи и временные файлы
+*.log
+logs/
+*.tmp
+
+# ОС и редакторы
+.DS_Store        # macOS
+Thumbs.db        # Windows
+.vscode/         # VS Code
+.idea/           # PyCharm
+*.swp            # Vim swap files
+*~               # Резервные файлы редакторов
+
+# Файлы зависимостей (не нужно, если есть requirements.txt)
+Pipfile.lock
+poetry.lock
+
+# Локальные настройки
+.local/
+settings_local.py
+
+# Docker (если добавишь позже)
+.dockerenv
